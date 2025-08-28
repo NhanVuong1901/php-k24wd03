@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function ex4_1({ greeting }) {
+const Ex4_1 = ({ greeting }) => {
     const [count, setCount] = useState(0);
 
     return (
@@ -14,6 +14,6 @@ function ex4_1({ greeting }) {
             <button onClick={() => setCount(0)}>Reset</button>
         </div>
     );
-}
+};
 
-export default ex4_1;
+export default Ex4_1;
